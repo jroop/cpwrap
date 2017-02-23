@@ -1,0 +1,19 @@
+{
+  "name": "cpwrap",
+  "version": "1.0.0",
+  "description": "simple nodejs child_process wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test; ava --verbose --serial  *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jroop/cpwrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.18.2"
+  }
+}
